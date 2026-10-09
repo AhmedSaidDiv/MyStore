@@ -60,9 +60,11 @@ npm run dev
 
 npm run build
 
-📸 Screenshots
+## 📸 Screenshots
 
-Screenshots of the project pages will be added here.
+![Home Page](./Screenshots/home.png)
+![Products Page](./Screenshots/products.png)
+
 
 🎓 Project
 
