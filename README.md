@@ -62,8 +62,8 @@ npm run build
 
 ## 📸 Screenshots
 
-![Home Page](./Screenshots/home.png)
-![Products Page](./Screenshots/products.png)
+![Home Page](./screenshots/Home.png)
+![Products Page](./screenshots/Products.png)
 
 
 🎓 Project
