@@ -63,7 +63,16 @@ npm run build
 ## 📸 Screenshots
 
 ![Home Page](./screenshots/Home.png)
-![Products Page](./screenshots/Products.png)
+![HomeDark Page](./screenshots/HomeDark.png)
+![Products Page](./screenshots/Product.png)
+![ProductsDark Page](./screenshots/ProductDark.png)
+![ProductsDetails Page](./screenshots/ProductDetails.png)
+![ProductsDetailsDark Page](./screenshots/ProductDetailsDark.png)
+![About Page](./screenshots/About.png)
+![AboutDark Page](./screenshots/AboutDark.png)
+![Cart Page](./screenshots/Cart.png)
+![CartDark Page](./screenshots/CartDark.png)
+
 
 
 🎓 Project
