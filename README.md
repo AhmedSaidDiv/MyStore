@@ -1,16 +1,69 @@
-# React + Vite
+MyStore 🛍️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive e-commerce web application built with React.
 
-Currently, two official plugins are available:
+🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+npx plugins add vercel/vercel-plugin
 
-## React Compiler
+📂 GitHub Repository
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+https://github.com/AhmedSaidDiv/MyStore
 
-## Expanding the ESLint configuration
+✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Browse products.
+* View product details.
+* Add products to the shopping cart.
+* Navigate between pages using React Router.
+* Toggle between Dark Mode and Light Mode.
+* Responsive design for different screen sizes.
+
+🛠️ Technologies Used
+
+* React
+* JavaScript
+* React Router
+* CSS
+* Vite
+* Vercel
+* Git and GitHub
+
+📄 Pages
+
+* Home
+* Products
+* Product Details
+* Cart
+* About
+* Not Found
+
+⚙️ Installation
+
+1. Clone the repository:
+
+git clone https://github.com/AhmedSaidDiv/MyStore.git
+
+2. Open the project folder:
+
+cd MyStore
+
+3. Install dependencies:
+
+npm install
+
+4. Start the development server:
+
+npm run dev
+
+🏗️ Build
+
+npm run build
+
+📸 Screenshots
+
+Screenshots of the project pages will be added here.
+
+🎓 Project
+
+Created as a React training graduation project.
