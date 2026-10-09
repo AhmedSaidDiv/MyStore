@@ -4,7 +4,7 @@ A responsive e-commerce web application built with React.
 
 🚀 Live Demo
 
-npx plugins add vercel/vercel-plugin
+https://my-store-ten-jade.vercel.app/
 
 📂 GitHub Repository
 
