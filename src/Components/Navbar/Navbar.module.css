@@ -1,0 +1,22 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.brand {
+  color: #171717;
+  letter-spacing: -1px;
+}
+
+.brand span {
+  color: #2563eb;
+}
+
+.navbar a {
+  transition: color 0.2s ease;
+}
+
+.navbar a:hover {
+  color: #2563eb;
+}

@@ -1,0 +1,68 @@
+body {
+  background-color: #ffffff;
+  color: #212529;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+body.dark-mode main {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+/* Dark mode: Bootstrap cards */
+body.dark-mode .card {
+  background-color: #1e1e1e;
+  color: #f1f1f1;
+  border-color: #383838;
+}
+
+body.dark-mode .card .text-secondary {
+  color: #bdbdbd !important;
+}
+
+/* Search and filter */
+body.dark-mode .form-control,
+body.dark-mode .form-select {
+  background-color: #252525;
+  color: #f1f1f1;
+  border-color: #555;
+}
+
+body.dark-mode .form-control::placeholder {
+  color: #aaa;
+}
+
+body.dark-mode .form-select option {
+  background-color: #252525;
+  color: #f1f1f1;
+}
+
+/* Hero section */
+body.dark-mode .hero {
+  background: linear-gradient(135deg, #202b3d, #1e1e1e);
+  color: #f1f1f1;
+}
+
+/* Links */
+body.dark-mode {
+  color: #9ec5fe;
+}
+
+body.dark-mode .navbar  {
+  color: inherit;
+}
+
+/* Slider buttons */
+body.dark-mode button {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .sliderButton {
+  background-color: #252525;
+  color: #f1f1f1;
+  border-color: #555;
+}
