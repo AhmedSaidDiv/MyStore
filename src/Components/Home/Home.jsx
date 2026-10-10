@@ -43,7 +43,7 @@ export default function Home() {
           <p className="lead mt-3">
             Discover amazing products at great prices.
           </p>
-          <Link to="/products" className="btn btn-dark">
+          <Link to="/products" className="btn btn-dark btt">
             Shop Now
           </Link>
         </div>

@@ -11,6 +11,7 @@ import About from './Components/About/About';
 import NotFound from './Components/NotFound/NotFound';
 
 import { ThemeProvider } from './Components/Theme/Theme';
+import Checkout from './Components/Checkout/Checkout';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/products/:id" element={<ProductDetails />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/about" element={<About />} />
+          <Route path='/Checkout' element={<Checkout/>}/>
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>

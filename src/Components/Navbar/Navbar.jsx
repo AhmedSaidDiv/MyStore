@@ -6,6 +6,14 @@ import { useTheme } from '../Theme/Theme';
 export default function Navbar() {
   const { cartCount } = useCart();
   const { darkMode, toggleTheme } = useTheme();
+  const handleThemeChange = (e) => {
+    const selectedTheme = e.target.value;
+    if (selectedTheme === `dark` && !darkMode) {
+      toggleTheme();
+    }else if (selectedTheme === `light` && darkMode) {
+      toggleTheme();
+    }
+  };
 
   return (
     <nav
@@ -58,15 +66,15 @@ export default function Navbar() {
               </span>
             </NavLink>
 
-            <button
-              type="button"
-              className={`btn btn-sm ${
-                darkMode ? 'btn-outline-light' : 'btn-outline-dark'
-              }`}
-              onClick={toggleTheme}
-            >
-              {darkMode ? '☀️ Light Mode' : '🌙 Dark Mode'}
-            </button>
+            <select
+               className="form-select theme-select"
+               value={darkMode ? 'dark' : 'light'}
+               onChange={handleThemeChange}
+               aria-label="Choose theme"
+>
+               <option value="light">☀️ Light Mode</option>
+               <option value="dark">🌙 Dark Mode</option>
+            </select>
           </div>
         </div>
       </div>

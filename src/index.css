@@ -59,10 +59,34 @@ body.dark-mode .navbar  {
 /* Slider buttons */
 body.dark-mode button {
   transition: background-color 0.3s ease, color 0.3s ease;
+
 }
+body.dark-mode .btn{
+  background-color: #edf1f6;
+  border: none;
+  color: #121212;
+}
+body.dark-mode .btn:hover{
+  background-color: #7eaef6;
+  color: #edf1f6;
+}
+body.dark-mode .btt{
+  background-color: #121212;
+  color: #edf1f6;
+}
+body.dark-mode .btt:hover{
+  background-color: #2b2a2a;
+}
+
+
 
 body.dark-mode .sliderButton {
   background-color: #252525;
   color: #f1f1f1;
   border-color: #555;
+}
+.theme-select.form-select{
+  width: 110px !important;
+  font-size: 10px;
+  border-radius: 6px;
 }

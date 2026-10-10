@@ -1,7 +1,9 @@
 import { Link } from 'react-router-dom';
 import { useCart } from '../CartContext/CartContext';
+import { useNavigate } from 'react-router-dom';
 
 export default function Cart() {
+  const navigate = useNavigate();
   const {
     cartItems,
     removeFromCart,
@@ -109,10 +111,7 @@ export default function Cart() {
 
             <button
               className="btn btn-dark w-100"
-              onClick={() =>
-                alert('Checkout will be available soon!')
-              }
-            >
+              onClick={() => navigate(`/Checkout`)}>
               Checkout
             </button>
 
