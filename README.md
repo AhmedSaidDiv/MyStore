@@ -72,7 +72,7 @@ npm run build
 ![AboutDark Page](./screenshots/AboutDark.png)
 ![Cart Page](./screenshots/Cart.png)
 ![CartDark Page](./screenshots/CartDark.png)
-![Checkout Page](./screenshots/Checkout.png)
+![Checkout Page](./screenshots/Chechout.png)
 ![CheckoutDark Page](./screenshots/CheckoutDark.png)
 
 
