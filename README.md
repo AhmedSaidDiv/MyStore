@@ -6,9 +6,6 @@ A responsive e-commerce web application built with React.
 
 https://my-store-ten-jade.vercel.app/
 
-📂 GitHub Repository
-
-https://github.com/AhmedSaidDiv/MyStore
 
 ✨ Features
 
